@@ -1,0 +1,29 @@
+{
+  "name": "cos-ms",
+  "version": "1.0.0",
+  "description": "Clash of Space is a cloned version game of the original Radius Raid of js13kGames (A JavaScript coding competition for HTML5 Game Developers) which is a popular game for kids. A space craft shooting game built with HTML5, CSS, JavaScript. It's a desktop version game, so can be played only in desktop/laptop.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=win32 --arch=x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PB2204/Clash-Of-Space.git"
+  },
+  "keywords": [
+    "Clash of Space",
+    "Space Game"
+  ],
+  "author": "Pabitra Banerjee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PB2204/Clash-Of-Space/issues"
+  },
+  "homepage": "https://github.com/PB2204/Clash-Of-Space#readme",
+  "devDependencies": {
+    "electron": "^29.1.6",
+    "electron-packager": "^17.1.2"
+  }
+}
